@@ -20,20 +20,36 @@ container.appendChild(header);
 const bgimage = new Image();
 bgimage.src = background;
 
-const navbar = document.createElement('div');
-navbar.classList.add('bg-success','fixed-top', 'd-none','menu');
-navbar.innerHTML=" ***** HERE *****";
-container.appendChild(navbar);
+const navBar = document.createElement('div');
+navBar.classList.add('position-fixed','px-4','hidden-nav-bar','nav-bar','bg-white', 'border', 'border-dark','rounded');
+
+navBar.innerHTML=" Home  |  Menu  |  Contact";
+const body =document.getElementsByTagName('body')[0];
+body.appendChild(navBar);
+
+
+const bounce = document.createElement('div');
+bounce.classList.add('bounce');
+
+const arrowDown = document.createElement('p');
+arrowDown.classList.add('arrow-down');
+bounce.appendChild(arrowDown);
+
+container.appendChild(bounce);
+
 
 content.appendChild(container);
 
 function showMenu(){
   if (window.scrollY>0){
-
-    navbar.classList.remove('d-none');
+    console.log('Showing bar');
+    navBar.classList.remove('hidden-nav-bar');
+    navBar.classList.add('visible-nav-bar');
   }
   else
   {
-    navbar.classList.add('d-none');
+    console.log('Hiding bar');
+    navBar.classList.remove('visible-nav-bar');
+    navBar.classList.add('hidden-nav-bar');
   }
 }

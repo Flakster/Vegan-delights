@@ -7,6 +7,7 @@
 
 .background-image {
   width: 100%;
+  min-width: 200px;
   height: 100vh;
 }
 
@@ -20,13 +21,61 @@
 }
 
 .header {
-  top: 40vh; 
+  top: 30vh; 
   font-family: 'vibes', cursive;
-  font-size: 10rem;
+  font-size: 6rem;
   text-shadow: 5px 5px 10px rgb(56, 55, 55);
 }
 
-.menu {
-  height: 1rem;
-  opacity: 0.6;
+.nav-bar {
+  right: 10px;
+  box-shadow: 3px 3px 5px rgb(51, 50, 50);
+}
+
+.hidden-nav-bar {
+ top: -50px;
+ transition: 400ms;
+}
+.visible-nav-bar {
+  top: 10px;
+  transition: 400ms;
+} 
+
+.arrow-down {
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 4px;
+  transform: rotate(45deg);
+}
+
+.bounce {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  animation: bounce 1500ms infinite;
+}
+
+@keyframes bounce {
+
+  0%, 20%, 50%, 80%, 100% {       
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    top: 40vh;
+    font-size: 10rem;
+  }
 }
