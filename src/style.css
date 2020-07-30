@@ -73,6 +73,30 @@
   }
 }
 
+.testimonial {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url('./vegan-table.jpg');
+}
+
+.testimonial-photo {
+  width: 6vw;
+  min-width: 60px;
+  height: 6vw;
+  min-height: 60px;
+  margin: auto;
+}
+
+.testimony {
+  line-height: 1rem;
+}
+
+
+.card {
+  width: 15vw;
+  min-width: 150px;
+  height: 15vw;
+  min-height: 150px;
+}
+
 @media (min-width: 768px) {
   .header {
     top: 40vh;
