@@ -23,7 +23,7 @@ const home = () => {
   const aboutTextBox = document.createElement('div');
   aboutTextBox.classList.add('col-12','col-md-6', 'order-1', 'order-md-0');
   const aboutTitle = document.createElement('h4');
-  aboutTitle.innerHTML = 'We serve from the bottom of our hearts';
+  aboutTitle.innerHTML = 'We serve from the bottom of our hearts.';
   aboutTextBox.appendChild(aboutTitle);
   
   const aboutParagraph1 = document.createElement('p');
