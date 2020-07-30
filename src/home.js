@@ -69,7 +69,7 @@ const home = () => {
   const testimony4 = testimony1.cloneNode();
   testimony1.textContent = `"I really love this vegan food"`;
   testimony2.textContent = `"The spiciest flavor in the city"`;
-  testimony3.textContent = `"The more natural the more I like"`;
+  testimony3.textContent = `"The more natural the more I like it"`;
   testimony4.textContent = `"As I feed my body I feed my soul"`;
   const photo1 = document.createElement('img');
   photo1.classList.add('rounded-circle','testimonial-photo');

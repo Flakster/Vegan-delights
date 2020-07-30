@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import welcome from './welcome.js';
 import home from './home.js';
+import menu from './menu.js';
 
 welcome();
 home();
