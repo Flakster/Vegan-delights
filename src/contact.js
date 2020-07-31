@@ -4,13 +4,13 @@ const contact = () => {
   const contactBox = document.createElement('div');
 
   const contactTitle = document.createElement('h2');
-  contactTitle.innerHTML = 'Contact us'
-  contactTitle.classList.add('text-center','display-4') 
+  contactTitle.innerHTML = 'Contact us';
+  contactTitle.classList.add('text-center', 'display-4');
 
   contactBox.appendChild(contactTitle);
 
   const contactForm = document.createElement('form');
-  contactForm.classList.add('contact-form','d-flex', 'flex-column', 'p-3');
+  contactForm.classList.add('contact-form', 'd-flex', 'flex-column', 'p-3');
 
   const labelName = document.createElement('label');
   labelName.innerHTML = 'Your name';
@@ -36,8 +36,8 @@ const contact = () => {
   const fieldMessage = document.createElement('textarea');
   fieldMessage.classList.add('mb-4');
 
-  const buttonSend = document.createElement('Button')
-  buttonSend.innerHTML= 'Send';
+  const buttonSend = document.createElement('Button');
+  buttonSend.innerHTML = 'Send';
 
 
   contactForm.appendChild(labelName);
@@ -49,18 +49,18 @@ const contact = () => {
   contactForm.appendChild(labelMessage);
   contactForm.appendChild(fieldMessage);
   contactForm.appendChild(buttonSend);
-  buttonSend.classList.add('mt-3','w-25','mx-auto', 'my-4');
+  buttonSend.classList.add('mt-3', 'w-25', 'mx-auto', 'my-4');
 
   contactBox.appendChild(contactForm);
 
   const footer = document.createElement('footer');
-  footer.innerHTML = "Copyright © 2020, Vegan delights, All Rights Reserved"
+  footer.innerHTML = 'Copyright © 2020, Vegan delights, All Rights Reserved';
   footer.classList.add('text-center', 'py-3');
 
   const content = document.getElementById('content');
   content.appendChild(contactBox);
   content.appendChild(footer);
-}
+};
 
 
 export default contact;
