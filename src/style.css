@@ -21,7 +21,7 @@
 }
 
 .header {
-  top: 30vh; 
+  top: 30vh;
   font-family: 'vibes', cursive;
   font-size: 6rem;
   text-shadow: 5px 5px 10px rgb(56, 55, 55);
@@ -33,17 +33,18 @@
 }
 
 .hidden-nav-bar {
- top: -50px;
- transition: 400ms;
+  top: -50px;
+  transition: 400ms;
 }
+
 .visible-nav-bar {
   top: 10px;
   transition: 400ms;
-} 
+}
 
 .option {
   cursor: pointer;
-  background-color:rgb(223, 222, 222);
+  background-color: rgb(223, 222, 222);
 }
 
 .option-selected {
@@ -72,8 +73,11 @@
 }
 
 @keyframes bounce {
-
-  0%, 20%, 50%, 80%, 100% {       
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
 
@@ -120,7 +124,7 @@
 
 .dish-photo {
   width: 300px;
-  height: 150px; 
+  height: 150px;
   background-size: cover;
   background-size: 100%;
   background-position: center;
