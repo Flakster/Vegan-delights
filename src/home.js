@@ -9,6 +9,7 @@ const home = () => {
 
   const content = document.getElementById("content");
   const infoBox = document.createElement('div');
+  document.getElementById('Home').classList.add('option-selected');
 
   // About header
   const headerBox = document.createElement('h2');
@@ -23,7 +24,7 @@ const home = () => {
   const aboutTextBox = document.createElement('div');
   aboutTextBox.classList.add('col-12','col-md-6', 'order-1', 'order-md-0');
   const aboutTitle = document.createElement('h4');
-  aboutTitle.innerHTML = 'We serve from the bottom of our hearts.';
+  aboutTitle.innerHTML = 'We serve from the bottom of our hearts';
   aboutTextBox.appendChild(aboutTitle);
   
   const aboutParagraph1 = document.createElement('p');
@@ -56,7 +57,7 @@ const home = () => {
   testimionialBox.classList.add('my-4','container-fluid','testimonial');
   const testimonialTitle = document.createElement('h4');
   testimonialTitle.innerHTML = 'They love our food!';
-  testimonialTitle.classList.add('text-center', 'text-white','display-4')
+  testimonialTitle.classList.add('text-center', 'text-white','display-4','testimonial-title')
   const bgTestimonial = new Image();
   const cardContainer = document.createElement('div');
   cardContainer.classList.add('row','p-4','mx-auto','w-95','w-md-75','justify-content-around');
@@ -68,7 +69,7 @@ const home = () => {
   const testimony3 = testimony1.cloneNode();
   const testimony4 = testimony1.cloneNode();
   testimony1.textContent = `"I really love this vegan food"`;
-  testimony2.textContent = `"The spiciest flavor in the city"`;
+  testimony2.textContent = `"The tastiest flavor in the city"`;
   testimony3.textContent = `"The more natural the more I like it"`;
   testimony4.textContent = `"As I feed my body I feed my soul"`;
   const photo1 = document.createElement('img');
