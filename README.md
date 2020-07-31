@@ -1,14 +1,15 @@
 # Vegan-delights
-Restaurant javascript website. The main goal of this project is to show the understanding of the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack.
+Restaurant javascript website. The site consists of three pages each of them in a module which is called from the index.js depending on the user's choice in a tabbed navigation var. The main goal of this project is to show the understanding of the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack.
 
 ## Screenshot
 ![screencapture-restaurant](https://user-images.githubusercontent.com/53324035/89051233-8b201480-d319-11ea-8dd9-34f55c6c2d6c.png)
-
+ 
 ## Built with
 
   * Javascript
   * HTML5
   * CSS3
+  * Webpack
   * Bootstrap
   
 ## Getting Started:
@@ -26,9 +27,7 @@ To get a local copy up and running follow these simple example steps:
 
 5. Install dependencies with npm install.
 
-6. Open your web browser and then open the index.html local file that was copied to the proyect folder
-
-7. execute npm run build
+6. Execute npm run build. The site will be loaded in your default browser
 
 ## See a live demo [Here](https://optimistic-galileo-9c3d72.netlify.app/)
 
