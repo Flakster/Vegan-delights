@@ -31,6 +31,12 @@ To get a local copy up and running follow these simple example steps:
 
 ## See a live demo [Here](https://optimistic-galileo-9c3d72.netlify.app/)
 
+## Potential future features
+
+ - Map location in contact page
+ - Dish detail on clicking the photo
+ - card carousel for testimonial section
+
 ## Show your support
 Give a ⭐️ if you like this project!
  
