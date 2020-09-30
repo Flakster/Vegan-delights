@@ -117,7 +117,13 @@ const home = () => {
   cardContainer.appendChild(card3);
   cardContainer.appendChild(card4);
   const footer = document.createElement('footer');
-  footer.innerHTML = 'Copyright © 2020, Vegan delights, All Rights Reserved';
+  footer.innerHTML = 'Copyright © 2020, ';
+  const copyRight = document.createElement('a');
+  const copyLink = document.createTextNode('Carlos Santamaría');
+  copyRight.title = 'Carlos Santamaria\'s online portfolio';
+  copyRight.href = 'https://www.carlossantamaria.co';
+  copyRight.append(copyLink);
+  footer.append(copyRight);
   footer.classList.add('text-center', 'py-3');
 
   // Configure about
