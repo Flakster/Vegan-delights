@@ -118,9 +118,12 @@ const home = () => {
   cardContainer.appendChild(card4);
   const footer = document.createElement('footer');
   footer.innerHTML = 'Copyright © 2020, ';
+  const copyRight = document.createElement('a');
   const copyLink = document.createTextNode('Carlos Santamaría')
-  copyLink.href="https://www.carlossantamaria.co";
-  footer.append(copyLink);
+  copyRight.title = "Carlos Santamaria\'s online portfolio";
+  copyRight.href = "https://www.carlossantamaria.co";
+  copyRight.append(copyLink);
+  footer.append(copyRight);
   footer.classList.add('text-center', 'py-3');
 
   // Configure about
