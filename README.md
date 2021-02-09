@@ -50,4 +50,3 @@ This project is [MIT](https://github.com/Flakster/Vegan-delights/blob/master/LIC
 * Twitter: [@Flakster](https://twitter.com/Flakster )
 * Github: [@Flakster](https://github.com/Flakster)
 * Linkedin: [@cjsb](https://www.linkedin.com/in/cjsb)
-* Email: contact@carlossantamaria.co
